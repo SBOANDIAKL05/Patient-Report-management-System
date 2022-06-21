@@ -1,9 +1,9 @@
 <?php
 
-$host="sql203.unaux.com";
-$user="unaux_29552604";
-$password="wat4t6it1";
-$dbname="unaux_29552604_prms";
+$host="localhost";
+$user="root";
+$password="";
+$dbname="prms";
 $conn=mysqli_connect($host,$user,$password,$dbname);
 if(!$conn)
 {
